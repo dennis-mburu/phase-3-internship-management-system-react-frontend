@@ -1,0 +1,49 @@
+.main {
+  padding: 16px;
+  margin-top: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+button,
+select,
+input {
+  border: none;
+  padding: 0.3rem;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.form {
+  border-bottom: 2px solid var(--background-light);
+  border-top: 2px solid var(--background-light);
+  padding: 1rem 0;
+  gap: 1rem;
+}
+
+.form button {
+  background: green;
+}
+
+.form label {
+  font-size: 0.8em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+em{
+  color:  red;
+}
+
+button:hover{
+  transform: scale(1.13, 1.13);
+  cursor: pointer;
+  transition: all 0.3s 0s ease-in-out;
+}
+
+h4{
+  text-align: center;
+  color: blueviolet;
+  text-decoration: underline;
+}
